@@ -1,0 +1,114 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    }
+
+
+.menu {
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    display: flex;
+    background:black;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    @media screen and(min-widht:700px) {
+
+    }
+    }
+
+a { color:wheat;
+    text-decoration: none;
+    line-height: 3;}
+
+
+:hover.intro {background: darkolivegreen;}
+
+.intro {flex: auto;
+    text-align: center;
+    border-bottom: 1px solid;}
+
+a { color: rgb(34, 34, 26);
+    text-decoration: none;
+    line-height: 3;}
+
+.fondo{margin: 0;
+    background-image: url(inglaterra.jpg)}
+
+.logo {margin-top: 1em;
+    border-radius: 50%;
+    display: block;
+    margin: auto;}
+
+.padre { margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 1em;
+}
+
+.UNO {font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: wheat;
+    text-shadow: 3px solid black;
+    font-size: 20px}
+
+.DOS {font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: black;
+    text-shadow: 3em solid black;
+    font-size: 25px}
+
+.TRES {font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: wheat;
+    text-shadow: 3px solid black;
+    font-size: 20px}
+
+.tickets{border: 2px solid black;
+    background-image: url(RECITALES.jpg);}
+
+.boton{text-align: center;}
+
+.btn1{border: none;
+    outline: none;
+    height: 50px;
+    background: black;
+    color: wheat;
+    font-size: 18px;}
+
+:hover .btn1{cursor: pointer;
+    background: black;
+    color:darkolivegreen;}
+    
+.lista{display: flex;
+    justify-content: center;}
+
+.tarjetas {list-style: none;
+    text-align: left;
+    display: inline-block;
+    font-size:35px;
+    margin: 2%;}
+
+.estadio{display: flex;
+    justify-content: center;}
+
+.parrafo{font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+    color:whitesmoke ;}
+
+.lista1{display: flex;
+    justify-content: space-between;
+    background: black; }
+
+.iconos{list-style: none;
+    text-align: left;
+    display: inline-block;
+font-size: 25px;
+color: blanchedalmond;
+margin: 4px;}
+
+
