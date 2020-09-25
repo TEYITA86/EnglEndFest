@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="./estilo.css">
     <script src="https://kit.fontawesome.com/24d0e2cc47.js" crossorigin="anonymous"></script>
     <style>
-        @media (max-width: 700px) {
+        @media (max-width: 700px) {.contenedor{display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width:auto;}
             
             
             .padre{
@@ -17,11 +20,16 @@
             flex-direction: row;
             width:auto;
             }
-
-            .menu{display: flex;
+            .tickets{display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             width:auto;}
+
+            .footer{display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width:auto;}
+            
         }
     </style>
 </head>
@@ -31,9 +39,9 @@
         <header>
             <nav>
                 <ul class="menu">
-                    <li class="intro"><a href="#">INICIO</a></li>
-                    <li class="intro"><a href="#">CONCIERTOS</a></li>
-                    <li class="intro"><a href="#">MERCHADISING</a></li>
+                    <li class="intro"><a href="index.html"></a>INICIO</a></li>
+                    <li class="intro"><a href="concert.html">CONCIERTOS</a></li>
+                    <li class="intro"><a href="marcha.html">MERCHADISING</a></li>
                     <li class="intro"><a href="login.html">INGRESAR</a></li>
                 </ul>
             </nav>

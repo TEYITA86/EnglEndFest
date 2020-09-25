@@ -14,10 +14,7 @@ body {
     background:black;
     justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    @media screen and(min-widht:700px) {
-
-    }
+    font-weight: bolder;   
     }
 
 a { color:wheat;
@@ -36,7 +33,9 @@ a { color: rgb(34, 34, 26);
     line-height: 3;}
 
 .fondo{margin: 0;
-    background-image: url(inglaterra.jpg)}
+    background-image: url(inglaterra.jpg);
+background-size: cover;
+background-position: center;}
 
 .logo {margin-top: 1em;
     border-radius: 50%;
