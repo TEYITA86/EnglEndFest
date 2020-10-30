@@ -1,0 +1,529 @@
+
+
+
+/*Estilos del header*/
+.header{
+    background: #343a40!important;
+    width: 100%;
+    height: 50px;    
+    position: fixed;
+    top: 0;    
+    flex-wrap: wrap;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ #title{
+    font-family: cursive;
+    color: #FFF;   
+    margin-top: 6px;
+    font-family: 'Leckerli One', cursive;   
+}
+
+#buscar{
+    margin-top: 10px;    
+}
+
+
+.iconos{    
+    margin-top: 7px;    
+    font-size: 20px;    
+}
+.iconos .icono{    
+   margin-left: 20px;    
+}
+
+
+
+.header-menu a{
+    text-decoration: none;
+}
+
+.cam{
+    margin-top: 10px; 
+  color: white;
+}
+
+.msn{
+    margin-top: 10px;
+    color: white;
+}
+
+ /*ESTILOS DEL CARRUSEL*/
+
+ .swiper-container {
+    width: 639px;
+    height: 100%;
+    border: solid 1px gray;
+    overflow: hidden;    
+    margin-left: 45px;
+    
+}
+  
+
+  .swiper-wrapper{
+      display: flex;
+      justify-content: center;
+      width: 88%;
+
+  }
+
+  .swiper-slide img{
+    width: 70px;
+    height: 70px;
+    border-top: solid 2px red;
+    border-left: solid 2px purple;
+    border-right: solid 2px red;
+    border-bottom: solid 2px purple;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  .swiper-button-next{
+      color: #000;
+  }
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+   
+
+main{
+    margin-top: 110px;
+}
+
+
+
+
+
+
+.containerPost{
+    margin-top: 30px;
+    margin-left: 45px;
+   
+}
+.post{
+    border-radius: 3px;
+    width: 60%;
+    max-height: 957px;
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+   
+}
+.headerPost{
+    display: inline-flex;
+    padding: 15px 15px 0px 15px;  
+}
+.userName{
+    margin-top: 5px;
+}
+.moreOptions{
+    border: 0;
+    background: white;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.photo{
+    padding: 10px 10px 10px 10px;
+}
+.menuPost{
+    padding: 15px 15px 15px 15px;  
+}
+.bookmark{
+    float: right;
+}
+.imgLike{
+    border-radius: 50%;
+}
+.likesPost{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.comentPost{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.moreComents{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.timePost{
+    margin-left: 15px;
+    font-size: x-small;
+    color: gray;
+}
+.newComent{
+    border: 0;
+    padding: 3px 15px 15px 15px;
+}
+.publicar{
+    float: right;
+    margin-right: 15px;
+}
+
+
+.container{
+    margin-bottom: 30px;
+    width: 100%;
+   
+}
+
+.icono i{
+    color: aliceblue;
+}
+
+.perfil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
+
+
+aside{
+    width: 30%;
+    height: 600px;   
+    margin-right: 10PX;      
+    margin-left: 61%;
+    position: fixed;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+aside .usuario{
+    width: 90%;
+    height: 70px;    
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+/* -------------------------*/
+.imagenes{
+    width: 70px;
+    height: 70px;
+    border-top: solid 2px red ;  
+    border-left: solid 2px purple; 
+    border-right: solid 2px red;  
+    border-bottom: solid 2px purple;    
+    border-radius: 50%;
+}
+.imagenes img{
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 3px 0 0 3px;
+    
+}
+
+.usuario-nombre{
+    width: 70%;
+    height: 70px;    
+    margin-left: 15px;
+}
+
+.usuario-nombre h6{
+    margin: 15px  0 0 0;
+}
+
+.usuario-nombre p{
+    color: gray;
+}
+
+
+
+
+/* -------------------------*/
+
+
+aside .usuarios{
+    width: 90%;
+    height: 30px;    
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    
+        
+}
+aside .usuarios a{    
+    list-style: none;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+aside .usuarios h6{ 
+    color: gray;   
+    
+}
+
+
+aside .sugerencias{
+    width: 90%;
+    height: 50px;
+    background-color:#ffff;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+
+.imagen{
+    width: 100%;
+    max-width: 40px;    
+    height: 40px;
+    border: solid 1px red;  
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.imagen img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 1px 1px 1px 1px;   
+}
+.datos-usuario{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.perfiles h6{
+    margin: 0 0; 
+    font-size: 15px;
+}
+
+.perfiles p{
+    margin: 0 0; 
+    color: gray;
+    font-size: 15px;
+}
+
+.ver-mas a{
+    text-decoration: none;
+}
+
+.informacion{
+    width: 90%;
+    height: 75px;
+    background-color: #fff;
+    margin-top: 10px;
+    
+}
+
+.informacion h6{    
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    color: gray;
+ }
+
+.informacion p{    
+   margin: 0 0;
+   font-size: 12px;
+   color: gray;
+}
+
+     .swiper-container {
+        width: 100%;
+        max-width: 530px;        
+        height: 100%;
+        border: solid 1px gray;
+        overflow: hidden;    
+        margin-left: 45px;
+        
+    }
+    .footer{
+        display: block;
+    }
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media(max-width: 575.98px) { 
+    header{
+        width: 100%; 
+        z-index: 99;
+        
+    }
+    #buscar{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    
+  
+    .container{
+    width: 105%;
+    margin: auto;
+    margin-left: -14px;
+    max-width: max-content;
+    }
+    .containerPost{
+        width: 374px;
+        margin-left: 87px;
+    }
+    .swiper-container{
+        width: 612px;
+        max-width: 1000%;
+        margin-left: 2px;
+    }
+    .post{
+        width: 612px;
+        margin-left: -87px;
+        margin-top: -28px;
+    }
+   
+    }
+   
+  
+
+    
+ 
+
+/* Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.98px) { 
+    header{
+        width: 100%;
+        z-index: 99;
+    }
+    #buscar{
+        display: none;
+    }
+    .iconos .icono{
+        margin: 3px;
+    }
+    aside{
+        display: none;
+    }
+    .container{
+        max-width: 1000%;
+        width: 101%;
+        margin: auto;
+        margin-left: -14px;
+        margin-left: -56px;
+    }
+    .post{
+        width: 113%;
+        margin-top: -29px;
+    }
+
+    .footer{
+        display: none;
+    }
+    
+    
+    
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    header{
+        width: 100%; 
+        z-index: 99;
+    }
+    aside{
+        margin-left: 448px;
+        display: none;
+    }
+    
+    .swiper-container{
+        width: 127%;
+        max-width: 1000%;
+        margin-left: -37px;
+    
+    }
+    .post{
+        width: 877px;
+        margin-left: -83px;
+    }
+    .footer{
+        display: none;
+        
+    }
+        
+    }
+    
+    
+ 
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 991.99px) and (max-width: 1199.98px) { 
+    header{
+        width: 100%; 
+        z-index: 99;
+    }
+    
+    .swiper-container{
+        width: 531px;
+        max-width: 100%;
+        margin-left: 45px;
+        height: 80px;
+    }
+    .footer{
+        display: none;
+    }
+    }
+    
+   
+ 
+
+ /* Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) { 
+   
+    .header{
+        width: 100%;
+        z-index: 99;
+    }
+    .swiper-container{
+        width: 638px;
+        max-width: 1000%;
+        margin-left: 46px;
+    }
+    .footer{
+        display: none;
+    }
+   
+
+    
+  }
+
+ 
+
+
+
+ 
